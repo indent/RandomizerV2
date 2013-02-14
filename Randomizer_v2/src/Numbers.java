@@ -3,34 +3,34 @@
  * console data randomizer
  * 
  */
-<<<<<<< HEAD
+
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.util.Random;
 import java.util.Scanner;
-=======
+
 import java.util.Random;
->>>>>>> 3425f727dabe48694956b78bf5151ef9aa4fd6ec
+
 
 public class Numbers {
     
     private int[] x = new int[1000];
     private int[] y = new int[1000];
     private int[] z = new int[1000];
-<<<<<<< HEAD
+
     private String[] b = new String[1000];
-=======
->>>>>>> 3425f727dabe48694956b78bf5151ef9aa4fd6ec
+
+
     
     public Numbers(){
         
         x[0] = 0;
         y[0] = 0;
         z[0] = 0;
-<<<<<<< HEAD
+
         b[0] = "";
-=======
->>>>>>> 3425f727dabe48694956b78bf5151ef9aa4fd6ec
+
+
     }
     
     public void setNumbers(int max, int min, int numData) {
@@ -51,7 +51,7 @@ public class Numbers {
         }
     }
     
-<<<<<<< HEAD
+
     public boolean specialNum(int numRep) {
         Scanner inStream = null;
         
@@ -76,6 +76,6 @@ public class Numbers {
         
         return true;
     }
-=======
->>>>>>> 3425f727dabe48694956b78bf5151ef9aa4fd6ec
+
+
 }
