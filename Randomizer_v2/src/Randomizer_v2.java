@@ -27,12 +27,12 @@ public class Randomizer_v2 {
         System.out.println("3: Random Last Name Generator");
         System.out.println("4: Random Full Name Generator");
         System.out.println("5: Random Date Generator");
-<<<<<<< HEAD
+
         System.out.println("6: Random Number Generator Special Case");
         System.out.println("0: Exit");
-=======
+
         System.out.println("6: Exit");
->>>>>>> 3425f727dabe48694956b78bf5151ef9aa4fd6ec
+
         System.out.println();
         System.out.println("Please select a number from the menu");
         int choice = keyboard.nextInt();
@@ -81,15 +81,12 @@ public class Randomizer_v2 {
                 aDate.theDate(max, min, mMax, mMin, numData, year);
                 break;
             case 6:
-<<<<<<< HEAD
                 int numRep = 0;
                 System.out.println("Enter in how many reptitions you would like");
                 numRep = keyboard.nextInt();
                 aNumber.specialNum(numRep);
                 break;
             case 0:
-=======
->>>>>>> 3425f727dabe48694956b78bf5151ef9aa4fd6ec
                 System.exit(0);
             default:
                 System.out.println("Please enter a valid number from the list.");
